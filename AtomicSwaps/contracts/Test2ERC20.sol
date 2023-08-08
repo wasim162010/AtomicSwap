@@ -18,10 +18,10 @@ abstract contract ERC20TokenInterface {
 }
 
 contract Test2ERC20 is ERC20TokenInterface {
-	string public name;// = "TeraBlockTwo";
-	string public symbol;// = "TBTwo";
-	uint8 public decimals;// = 18;
-    uint256 public totalSupply;// = 100000 * 10 ** uint256(decimals);
+	string public name;
+	string public symbol;
+	uint8 public decimals;
+    uint256 public totalSupply;
 
 	mapping (address => uint256) public balances;
 	mapping (address => mapping (address => uint256)) public allowed;
